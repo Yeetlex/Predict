@@ -1,0 +1,72 @@
+### Python ###
+# Entornos virtuales
+venv/
+.venv/
+env/
+.venv*/
+venv*/
+venv.bak/
+venv_old/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de caché
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuciones/instaladores
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Archivos de instalación
+*.manifest
+*.spec
+
+# Archivos de testeo
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+logs/
